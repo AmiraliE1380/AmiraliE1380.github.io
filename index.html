@@ -1,7 +1,136 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amirali Ebrahimzadeh</title>
+<meta name="description" content="Amirali Ebrahimzadeh: compilers, program analysis, and automated verification. MSE student at the University of Michigan.">
+<style>
+  :root { --accent:#1f3a93; --text:#1a1a1a; --muted:#5f6368; --line:#e3e6ea; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+         color:var(--text); background:#fff; line-height:1.6; font-size:16.5px; }
+  main { max-width:760px; margin:0 auto; padding:48px 22px 64px; }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  header { display:flex; gap:28px; align-items:center; margin-bottom:28px; }
+  header img { width:150px; height:150px; object-fit:cover; border-radius:50%; flex-shrink:0; }
+  h1 { margin:0 0 4px; font-size:2rem; letter-spacing:-0.01em; }
+  .role { color:var(--muted); margin:0 0 10px; }
+  .links a { margin-right:14px; white-space:nowrap; font-weight:500; }
+  h2 { color:var(--accent); font-size:1.15rem; text-transform:uppercase; letter-spacing:0.05em;
+       border-bottom:2px solid var(--accent); padding-bottom:4px; margin:36px 0 14px; }
+  p { margin:0 0 12px; }
+  ul { padding-left:20px; margin:0; }
+  li { margin-bottom:12px; }
+  .pub-title { font-weight:600; }
+  .venue { color:var(--muted); font-style:italic; }
+  .me { font-weight:600; }
+  .entry { margin-bottom:16px; }
+  .entry-head { display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+  .entry-head b { font-weight:600; }
+  .when { color:var(--muted); white-space:nowrap; }
+  .sub { color:var(--muted); font-size:0.95rem; }
+  .news { color:var(--accent); font-weight:600; }
+  footer { margin-top:44px; color:var(--muted); font-size:0.9rem; border-top:1px solid var(--line); padding-top:14px; }
+  @media (max-width:600px){ header{flex-direction:column; text-align:center;} .links a{display:inline-block; margin:4px 8px;} }
+</style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<main>
+
+<header>
+  <img src="photo.jpg" alt="Amirali Ebrahimzadeh" onerror="this.style.display='none'">
+  <div>
+    <h1>Amirali Ebrahimzadeh</h1>
+    <p class="role">MSE student, Computer Science and Engineering, University of Michigan</p>
+    <div class="links">
+      <a href="mailto:amiralie@umich.edu">Email</a>
+      <a href="cv.pdf">CV</a>
+      <a href="https://scholar.google.com/citations?user=-wRL1KkAAAAJ&amp;hl=en">Google Scholar</a>
+      <a href="https://github.com/AmiraliE1380">GitHub</a>
+      <a href="https://www.linkedin.com/in/amirali-ebrahimzadeh/">LinkedIn</a>
+    </div>
+  </div>
+</header>
+
+<section>
+  <p>I work on <b>compilers, program analysis, and automated verification</b>. I am interested in how compilers can use automated reasoning, such as SMT solvers and model checkers, to optimize programs aggressively while keeping strong correctness guarantees.</p>
+  <p>My current work introduces <b>super-analysis</b>: an approach in which an SMT solver serves as an analysis oracle inside LLVM, proving runtime safety checks unreachable so they can be removed. One mechanism works across C/C++, Swift, Rust, and Julia, with speedups of up to 4&times;.</p>
+  <p>Before Michigan, I studied Computer Engineering at Sharif University of Technology (with a minor in Philosophy of Science) and worked on probabilistic verification at IST Austria.</p>
+  <p class="news">I am applying to PhD programs for Fall 2027.</p>
+</section>
+
+<h2>Research Interests</h2>
+<p>Compilers and compiler optimization &middot; SMT-based program analysis &middot; Automated verification &middot; Programming languages &middot; Program synthesis</p>
+
+<h2>Publications</h2>
+<ul>
+  <li>
+    <a class="pub-title" href="https://arxiv.org/abs/2611.17737">Super-Analysis for Aggressive yet Scalable Compiler Optimization</a><br>
+    <span class="me">Amirali Ebrahimzadeh</span>, Amir Shaikhha<br>
+    <span class="venue">Under review, 2026.</span> <a href="https://arxiv.org/abs/2611.17737">[arXiv]</a>
+    <!-- Optional: add the ODeSSy repository link here, e.g. <a href="https://github.com/...">[code]</a> -->
+  </li>
+  <li>
+    <a class="pub-title" href="https://arxiv.org/abs/2405.04420">Fully Automated Selfish Mining Analysis in Efficient Proof Systems Blockchains</a><br>
+    Krishnendu Chatterjee, <span class="me">Amirali Ebrahimzadeh</span>, Mehrdad Karrabi, Krzysztof Pietrzak, Michelle Yeo, &#272;or&#273;e &#381;ikeli&#263; (alphabetical order)<br>
+    <span class="venue">ACM Symposium on Principles of Distributed Computing (PODC), 2024.</span> <a href="https://arxiv.org/abs/2405.04420">[arXiv]</a>
+  </li>
+  <li>
+    <a class="pub-title" href="https://openreview.net/forum?id=YN7BlEh3Jb">Not All Needles Are Found: How Fact Distribution and Don't Make It Up Prompts Shape Retrieval, Reasoning, and Hallucination in Long-Context LLMs</a><br>
+    <span class="me">Amirali Ebrahimzadeh</span>, Seyyed M. Salili<br>
+    <span class="venue">ICML 2026 Workshop (FAGEN).</span> <a href="https://openreview.net/forum?id=YN7BlEh3Jb">[OpenReview]</a>
+  </li>
+  <li>
+    <a class="pub-title" href="https://doi.org/10.1016/j.compbiomed.2024.109412">Explainable Machine Learning versus Known Nomogram for Predicting Non-Sentinel Lymph Node Metastases in Breast Cancer Patients: A Comparative Study</a><br>
+    Asieh Sadat Fattahi, Maryam Hoseini, Toktam Dehghani, Raheleh Ghouchan Nezhad Noor Nia, Zeinab Naseri, <span class="me">Amirali Ebrahimzadeh</span>, Ali Mahri, Saeid Eslami<br>
+    <span class="venue">Computers in Biology and Medicine, 2025.</span>
+  </li>
+</ul>
+
+<h2>Research Experience</h2>
+
+<div class="entry">
+  <div class="entry-head"><b>Super-analysis for compiler optimization (ODeSSy)</b><span class="when">2026 &ndash; present</span></div>
+  <div class="sub">With Prof. Amir Shaikhha (TU Darmstadt), remote collaboration</div>
+  An LLVM pass that encodes IR and the results of LLVM's own analyses into Z3, proving safety checks unreachable and removing them; includes solver-synthesized loop guards and deterministic parallel solving.
+</div>
+
+<div class="entry">
+  <div class="entry-head"><b>Probabilistic verification of blockchain protocols</b><span class="when">2022 &ndash; 2024</span></div>
+  <div class="sub">Institute of Science and Technology Austria, with Prof. Krishnendu Chatterjee</div>
+  First fully automated analysis of selfish-mining attacks on efficient-proof-system blockchains, via Markov decision processes and probabilistic model checking (PRISM/Storm).
+</div>
+
+<div class="entry">
+  <div class="entry-head"><b>Parameterized algorithms for LTL model checking</b><span class="when">Summer 2023</span></div>
+  <div class="sub">HKUST, with Prof. Amir Goharshady</div>
+  Studied structural parameterizations for LTL model checking; established negative (hardness) results for model checking and B&uuml;chi automata problems under the parameterizations studied.
+</div>
+
+<div class="entry">
+  <div class="entry-head"><b>ML for hardware design and sensing</b><span class="when">2025 &ndash; present</span></div>
+  <div class="sub">University of Michigan, with Prof. Ehsan Afshari and Dr. Morteza Fayazi</div>
+  Lead software/ML engineer for RainierAI, an automated analog-circuit design pipeline whose optimization layer raised spec-meeting designs from 50% to 92% (now a startup; consultant since 2026). Also built a CNN that recognizes spoken words from 256-GHz radar data.
+</div>
+
+<h2>Teaching</h2>
+<ul>
+  <li><b>Head Teaching Assistant, Programming Languages</b>, Sharif University of Technology (3 semesters)</li>
+  <li>Grader, Computational Complexity (graduate), University of Michigan, 2026</li>
+  <li>Teaching Assistant: Theory of Computation, Advanced Programming, Probability, Sharif University of Technology</li>
+</ul>
+
+<h2>Service</h2>
+<ul>
+  <li>Student Volunteer, ACM SIGPLAN POPL 2025</li>
+</ul>
+
+<footer>
+  amiralie [at] umich [dot] edu &middot; Last updated November 2026
+</footer>
+
+</main>
 </body>
 </html>
